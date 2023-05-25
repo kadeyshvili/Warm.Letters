@@ -19,7 +19,7 @@ public class Server {
                 receiveFile("NewFile.jpg");
 
 
-//                ProcessBuilder processBuilder01 = new ProcessBuilder("/bin/sh", "-c", "python /Users/antonina/Downloads/server_java_make_html/remove_shadows.py NewFile.jpg");
+//                ProcessBuilder processBuilder01 = new ProcessBuilder("/bin/sh", "-c", "python remove_shadows.py NewFile.jpg");
 //                processBuilder01.inheritIO();
 //                Process process01 = processBuilder01.start();
 //                process01.waitFor();
