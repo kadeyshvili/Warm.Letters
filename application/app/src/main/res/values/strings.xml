@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Warm Letters</string>
+    <string name="put_category_label">Введите название новой категории</string>
+</resources>
