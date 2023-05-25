@@ -53,7 +53,7 @@ public class Client extends AsyncTask<String, Void, String> {
 
     @Override
     protected String doInBackground(String... strings) {
-        try (Socket socket = new Socket("192.168.50.168", 800)) {
+        try (Socket socket = new Socket("0.tcp.eu.ngrok.io", 15864)) {
 
             dataInputStream = new DataInputStream(
                     socket.getInputStream());
